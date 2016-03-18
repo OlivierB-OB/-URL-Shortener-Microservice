@@ -9,10 +9,10 @@ User stories:
 
 Example usage:
 
-*  [https://ob-url-shortener-microservice.herokuapp.com/new/https://www.google.com](https://ob-url-shortener-microservice.herokuapp.com/new/https://www.google.com)
-*  [https://ob-url-shortener-microservice.herokuapp.com/1](https://ob-url-shortener-microservice.herokuapp.com/1)
+*  [https://ob-url-shortener-microservice.herokuapp.com/set/https://www.google.com](https://ob-url-shortener-microservice.herokuapp.com/set/https://www.google.com)
+*  [https://ob-url-shortener-microservice.herokuapp.com/get/1](https://ob-url-shortener-microservice.herokuapp.com/get/1)
 
 Example output:
 
-*  { "original_url": "https://www.google.com", "short_url": "https://ob-url-shortener-microservice.herokuapp.com/1" }
+*  { "original_url": "https://www.google.com", "short_url": "https://ob-url-shortener-microservice.herokuapp.com/get/1" }
 *  { "error": "Invalid URL provided!" }
